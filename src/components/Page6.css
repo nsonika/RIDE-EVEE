@@ -1,0 +1,27 @@
+/* Page6.css */
+
+.page6 {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.service-section {
+    padding: 70px;
+}
+
+.service-list {
+    margin-top: 20px;
+    text-transform: none;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service-list li {
+    margin-bottom: 20px;
+}
+
+.service-list li b {
+    font-weight: 600;
+}

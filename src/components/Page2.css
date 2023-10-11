@@ -1,0 +1,52 @@
+/* Page2.css */
+
+
+.heading {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+  color: #60A547;
+  margin: 25px 0;
+}
+
+.info-container {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.green-text {
+  color: #60A547;
+}
+
+.car-img {
+  margin-left: 40px;
+}
+
+.info-box {
+  width: 20%;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+/* Add media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .car-img {
+    width: 70%;
+    margin: 20px 0;
+  }
+
+  .info-box {
+    width: 80%;
+    margin-top: 30px;
+  }
+}

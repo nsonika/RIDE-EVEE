@@ -1,0 +1,67 @@
+/* NavBar.css */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px; 
+}
+
+.customer-signin,
+.vendor-sign-up {
+    margin: 0 10px;
+    box-shadow: none;
+    border-radius: 9px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+
+}
+
+.customer-signin{
+    background-color: #38B000;
+    color: white; 
+}
+
+.vendor-sign-up{
+  background-color: #ffffff;
+  color: #000000;
+  
+}
+
+.ride-evee-logo-1{
+    width: 158px;
+    height: auto;
+}
+
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .customer-signin,
+  .vendor-sign-up {
+    margin: 10px 0;
+    padding: 6px 12px;
+   font-size: 11px;
+  }
+  .ride-evee-logo-1{
+    width: 80px;
+    height: auto;
+  }
+  .time-logo{
+    display: none;
+  }
+}
