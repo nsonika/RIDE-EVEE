@@ -2,7 +2,7 @@ import React from 'react'
 import './Page3.css'
 import img from '../assets/buildings.png'
 
-const Page3 = () => {
+export const Page3 = () => {
   return (
     <div className='page3'>
       <div className='image-container'> 
@@ -20,4 +20,3 @@ const Page3 = () => {
   )
 }
 
-export default Page3
