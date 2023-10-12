@@ -114,4 +114,8 @@ input{
   input[type="time"] {
     margin-right: 140px;
   }
+
+  .align-input{
+    display: flex;
+  }
   }

@@ -41,15 +41,19 @@ export const ExploreCabs = () => {
 
           <div className="from">
          <p className="para-title">From</p>
+         <div className="align-input">
          <input className="input-exp" type="text" id="" placeholder="start typing city" />
              <img src={location} alt="" className='locate-icon'/>
+             </div>
              
     </div>  
 <img src={route} alt="" className='route-icon'/>
     <div className="to">
          <p className="para-title">To</p>
+         <div className="align-input">
          <input className="input-exp" type="text" id="" placeholder="start typing city" />
              <img src={location} alt="" className='locate-icon'/>
+             </div>
       </div>  
                   
     
@@ -71,8 +75,10 @@ export const ExploreCabs = () => {
 
           <div className="from">
          <p className="para-title">From</p>
+         <div className="align-input">
          <input className="input-exp" type="text" id="" placeholder="start typing city" />
              <img src={location} alt="" className='locate-icon'/>
+             </div>
     </div>  
 
     
@@ -96,14 +102,18 @@ export const ExploreCabs = () => {
 
           <div className="from">
        <p className="para-title">From</p>
+       <div className="align-input">
        <input className="input-exp" type="text" id="" placeholder="start typing city" />
        <img src={location} alt="" className='locate-icon'/>
+       </div>
   </div>  
 <img src={route} alt="" className='route-icon'/>
   <div className="to">
        <p className="para-title">To</p>
+       <div className="align-input">
        <input className="input-exp" type="text" id="" placeholder="start typing city" />
        <img src={location} alt="" className='locate-icon'/>
+       </div>
     </div>  
                 
   
