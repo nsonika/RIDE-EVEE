@@ -11,16 +11,5 @@
 }
 
 
-.explore{
-  max-width: 1193px;
-  background-color: white;
-  border-radius: 13px;
-  padding: 20px;
-  box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
+
+
