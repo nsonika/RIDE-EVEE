@@ -1,5 +1,10 @@
 import React from "react";
 import './Page5.css';
+import car1 from "../assets/car.png";
+import car2 from "../assets/car2.png";
+import driving from "../assets/driving1.png";
+import people from "../assets/people1.png";
+import money from "../assets/moneys.png";
 
 
 export const Page5 = () => {
@@ -16,6 +21,55 @@ export const Page5 = () => {
         <li>Planning your trip is a breeze with our user-friendly website, or you can chat with our travel experts at 8960170877 for personalized guidance on car rental. Our cab booking app simplifies the process, ensuring a hassle-free experience when you rent a car.</li>
         </ul>
     </div>
+
+
+    <div className="table">
+  <table className="table-style">
+    <thead>
+      <tr>
+        <th>
+          <img src={car1} alt="" className="inline-icon" /> Cab Type
+        </th>
+        <th>
+          <img src={car2} alt="" className="inline-icon" /> Models Include
+        </th>
+        <th>
+          <img src={people} alt="" className="inline-icon" /> Passengers
+        </th>
+        <th>
+          <img src={driving} alt="" className="inline-icon" /> Ideal For
+        </th>
+        <th>
+          <img src={money} alt="" className="inline-icon" /> Fare
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ac Sedan</td>
+        <td>Etios, Amaze, Dzire etc.</td>
+        <td>4 Pax</td>
+        <td>Comfortable trips with small families</td>
+        <td>Rs.11/KM</td>
+      </tr>
+      <tr>
+        <td>AC Hatchbacks</td>
+        <td>Wagon R, Celerio, Micra etc.</td>
+        <td>4 Pax</td>
+        <td>Budget trips over short distances</td>
+        <td>Rs.11/KM</td>
+      </tr>
+      <tr>
+        <td>AC SUV</td>
+        <td>Ertiga, Xylo etc.</td>
+        <td>6-7 Pax</td>
+        <td>Premium trips with large families</td>
+        <td>Rs.13/KM</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
         </div>
     );
     }
