@@ -34,6 +34,28 @@ height: 80vh;
   width: 50%;
 }
 
+
+@media (max-width: 1000px) {
+  .overlay-text {
+    top: 150px;
+    right: 100px;
+    transform: none;
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .why-choose{
+  height: 80vh;
+}
+.head-txt{
+  font-size: 25px; 
+}
+.para-txt{
+  font-size: 15px; 
+  width: 80%;
+}
+}
+
 @media (max-width: 768px) {
   .overlay-text {
     top: 150px;
