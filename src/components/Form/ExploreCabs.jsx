@@ -40,27 +40,27 @@ export const ExploreCabs = () => {
 
 
           <div className="from">
-         <p class="para1">From</p>
-         <input class="inpus1" type="text" id="" placeholder="start typing city" />
+         <p className="para-title">From</p>
+         <input className="input-exp" type="text" id="" placeholder="start typing city" />
              <img src={location} alt="" className='locate-icon'/>
              
     </div>  
 <img src={route} alt="" className='route-icon'/>
     <div className="to">
-         <p class="para1">To</p>
-         <input class="inpus1" type="text" id="" placeholder="start typing city" />
+         <p className="para-title">To</p>
+         <input className="input-exp" type="text" id="" placeholder="start typing city" />
              <img src={location} alt="" className='locate-icon'/>
       </div>  
                   
     
       <div className="date">
-         <p class="para1">Pick Up Date</p>
-         <input class="inpus1" type="date" id="" placeholder="start typing city" />
+         <p className="para-title">Pick Up Date</p>
+         <input className="input-exp" type="date" id="" placeholder="start typing city" />
       </div>  
 
       <div className="time">
-         <p class="para1">Pick Up At</p>
-         <input class="inpus1" type="time" id="" placeholder="start typing city" />
+         <p className="para-title">Pick Up At</p>
+         <input className="input-exp" type="time" id="" placeholder="start typing city" />
       </div>                
         </div>
       )}
@@ -70,20 +70,20 @@ export const ExploreCabs = () => {
           {/* ... content for local */}
 
           <div className="from">
-         <p class="para1">From</p>
-         <input class="inpus1" type="text" id="" placeholder="start typing city" />
+         <p className="para-title">From</p>
+         <input className="input-exp" type="text" id="" placeholder="start typing city" />
              <img src={location} alt="" className='locate-icon'/>
     </div>  
 
     
       <div className="date">
-         <p class="para1">Pick Up Date</p>
-         <input class="inpus1" type="date" id="" placeholder="start typing city" />
+         <p className="para-title">Pick Up Date</p>
+         <input className="input-exp" type="date" id="" placeholder="start typing city" />
       </div>  
 
       <div className="time">
-         <p class="para1">Pick Up At</p>
-         <input class="inpus1" type="time" id="" placeholder="start typing city" />
+         <p className="para-title">Pick Up At</p>
+         <input className="input-exp" type="time" id="" placeholder="start typing city" />
       </div>                           
                                     
        </div>
@@ -95,26 +95,26 @@ export const ExploreCabs = () => {
           {/* ... content for airport */}
 
           <div className="from">
-       <p class="para1">From</p>
-       <input class="inpus1" type="text" id="" placeholder="start typing city" />
+       <p className="para-title">From</p>
+       <input className="input-exp" type="text" id="" placeholder="start typing city" />
        <img src={location} alt="" className='locate-icon'/>
   </div>  
 <img src={route} alt="" className='route-icon'/>
   <div className="to">
-       <p class="para1">To</p>
-       <input class="inpus1" type="text" id="" placeholder="start typing city" />
+       <p className="para-title">To</p>
+       <input className="input-exp" type="text" id="" placeholder="start typing city" />
        <img src={location} alt="" className='locate-icon'/>
     </div>  
                 
   
     <div className="date">
-       <p class="para1">Pick Up Date</p>
-       <input class="inpus1" type="date" id="" placeholder="start typing city" />
+       <p className="para-title">Pick Up Date</p>
+       <input className="input-exp" type="date" id="" placeholder="start typing city" />
     </div>  
 
     <div className="trip">
-       <p class="para1">Trip Type</p>
-       <input class="inpus1" type="text" id="" placeholder="choose airport" />
+       <p className="para-title">Trip Type</p>
+       <input className="input-exp" type="text" id="" placeholder="choose airport" />
        <img src={plane} alt="" className='locate-icon'/>
     </div>                           
                                   
