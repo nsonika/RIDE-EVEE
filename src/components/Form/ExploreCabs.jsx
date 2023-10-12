@@ -125,7 +125,7 @@ export const ExploreCabs = () => {
       )}
 
       <div className="exp-btn">
-        <button>Explore</button>
+        <button>Explore Cabs</button>
       </div>
     </div>
   );
